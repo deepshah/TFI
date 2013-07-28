@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TFI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="studentid">Student ID</string>
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
+    <string name="title_activity_confirm_attendance">Confirm Attendance</string>
+    <string name="confirm">Confirm and Submit</string>
+    <string name="title_activity_mark_attendance">Mark Attendance</string>
+    <string name="uid">User ID</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sname">Student Name</string>
+
+</resources>
