@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>password</param-value>
+    </context-param>
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:mysql://localhost:3306/tfi</param-value>
+        
+    </context-param>
+    <context-param>
+        <param-name>class</param-name>
+        <param-value>com.mysql.jdbc.Driver</param-value>
+    </context-param>
+    <distributable/>
+    <session-config>
+        <session-timeout>
+            100
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/pagenotfound.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/networkerror.jsp</location>
+    </error-page>
+</web-app>
